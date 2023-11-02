@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(102, 0, 128), black);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+p{
+    font-family: Merriweather;
+}
+
+.divmsg{
+    width: auto;
+    height: auto;}
+
+#msg{
+    text-align: center;
+    color: rgb(223, 188, 188);
+}
+
+.container > img{
+    height: 22rem;
+    width: 12rem;
+}
